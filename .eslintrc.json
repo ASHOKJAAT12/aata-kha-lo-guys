@@ -1,3 +1,8 @@
+
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    "rule-name": "off",
+    "no-console": "off" // Example: disable the no-console rule
+  }
 }
