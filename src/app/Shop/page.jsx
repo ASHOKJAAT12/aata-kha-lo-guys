@@ -1,6 +1,6 @@
 import React from 'react'
-import First from './first'
-import Second from './Second'
+import First from '@/app/Shop/First'
+import Second from '@/app/Shop/Second'
 
 function page() {
   return (
