@@ -27,8 +27,8 @@ function Categories() {
                 </div>
 
                 <div className='flex items-center font-semibold text-[#444444] justify-around'>
-                    <h1>The Frestest Aata's</h1>
-                    <h1>Healthy Fasting Aata's</h1>
+                    <h1>The Frestest Aata&apos;s</h1>
+                    <h1>Healthy Fasting Aata&apos;s</h1>
                 </div>
             </section>
         </div>

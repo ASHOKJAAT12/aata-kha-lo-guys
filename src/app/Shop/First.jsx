@@ -27,13 +27,13 @@ function First() {
 
                     <Link href='/' >
                         <Image alt='photo' className=' rounded-lg' height={400} width={400} src='/Top2.jpeg' ></Image>
-                        <h1 className='items-center font-bold p-2 text-[#444444] text-center'>The Frestest Aata's</h1>
+                        <h1 className='items-center font-bold p-2 text-[#444444] text-center'>The Frestest Aata&apos;s</h1>
 
                     </Link>
 
                     <Link href='/' >
                         <Image alt='photo' className='rounded-lg' height={40} width={400} src='/Top1.jpeg' />
-                        <h1 className='items-center font-bold p-2 text-[#444444] text-center'>Healthy Fasting Aata's</h1>
+                        <h1 className='items-center font-bold p-2 text-[#444444] text-center'>Healthy Fasting Aata&apos;s</h1>
 
                     </Link>
 
