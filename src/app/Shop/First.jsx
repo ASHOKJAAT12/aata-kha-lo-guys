@@ -15,7 +15,7 @@ function First() {
                 </div>
             </div>
 
-            <section className='max-w-[1360px]  p-[50px]  h-full'>
+            <section className='max-w-[1360px]  p-[14px]  h-full'>
 
                 <div className='flex items-center text-[#333333] justify-center pt-[40px] text-3xl font-extrabold'>
 
@@ -26,25 +26,25 @@ function First() {
                 <div className='grid grid-cols-4 max-md:grid-cols-2 gap-4 mx-auto items-center justify-around mt-10 w-full'>
 
                     <Link href='/' >
-                        <Image alt='photo' className=' rounded-lg' height={400} width={400} src='/Top2.jpeg' ></Image>
+                        <Image alt='photo' className=' rounded-lg' height={500} width={500} src='/Top2.jpeg' ></Image>
                         <h1 className='items-center font-bold p-2 text-[#444444] text-center'>The Frestest Aata&apos;s</h1>
 
                     </Link>
 
                     <Link href='/' >
-                        <Image alt='photo' className='rounded-lg' height={40} width={400} src='/Top1.jpeg' />
+                        <Image alt='photo' className='rounded-lg' height={500} width={500} src='/Top1.jpeg' />
                         <h1 className='items-center font-bold p-2 text-[#444444] text-center'>Healthy Fasting Aata&apos;s</h1>
 
                     </Link>
 
                     <Link href='/' >
-                        <Image alt='photo' className='rounded-lg' height={40} width={400} src='/OIL.png' />
+                        <Image alt='photo' className='rounded-lg' height={500} width={500} src='/OIL.png' />
                         <h1 className='items-center font-bold p-2 text-[#444444] text-center'>Cold Pressed Oil</h1>
 
                     </Link>
 
                     <Link href='/' >
-                        <Image alt='photo' className='rounded-lg' height={40} width={400} src='/OIL2.png' />
+                        <Image alt='photo' className='rounded-lg' height={500} width={500} src='/OIL2.png' />
                         <h1 className='items-center font-bold p-2 text-[#444444] text-center'>positive Millets Flours</h1>
 
                     </Link>

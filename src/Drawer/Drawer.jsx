@@ -5,7 +5,7 @@ import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import MailIcon from '@mui/icons-material/Mail';
-import { useRouter } from 'next/router';
+import { useRouter , Router} from 'next/router';
 
 
 import Image from 'next/image';
@@ -20,7 +20,7 @@ export default function TemporaryDrawer() {
   const router = useRouter
 
   const handleButtonclick = () => {
-    router.push(`/components/Shop/Shop`);
+    router.push('/Shop');
   }
 
 

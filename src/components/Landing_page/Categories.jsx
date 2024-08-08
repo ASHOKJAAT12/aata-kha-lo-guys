@@ -6,7 +6,7 @@ import Image from 'next/image'
 function Categories() {
     return (
         <div>
-            <section className='max-w-[1360px] mt-10 p-[50px] bg-[#F9F9F9] h-full'>
+            <section className='max-w-[1360px] mt-10 p-[20px] bg-[#F9F9F9] h-full'>
 
                 <div className='flex items-center text-[#333333] justify-center pt-[40px] text-2xl font-bold'>
 
@@ -17,11 +17,11 @@ function Categories() {
                 <div className='flex gap-4 mx-auto items-center justify-around mt-10 w-full'>
 
                     <Link href='/' >
-                        <Image alt='photo' className=' rounded-xl' height={400} width={400} src='/Top2.jpeg' ></Image>
+                        <Image alt='photo' className=' rounded-xl' height={500} width={500} src='/Top2.jpeg' ></Image>
                     </Link>
 
                     <Link href='/' >
-                        <Image alt='photo' className='rounded-xl' height={40} width={400} src='/Top1.jpeg' />
+                        <Image alt='photo' className='rounded-xl' height={500} width={500} src='/Top1.jpeg' />
                     </Link>
 
                 </div>
