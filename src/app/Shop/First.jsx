@@ -5,17 +5,17 @@ import Link from 'next/link';
 function First() {
  
     return (
-        <section className=' max-w-[1360px]'>
+        <section className='w-full'>
 
-            <div className='h-[120px]'>
+            <div className='h-[120px] w-full'>
                 <Image alt='photo' className='h-[140px] w-full z-0  absolute' height={1000} width={1400} src='/shop-theme.jpg' />
-                <div className=' flex flex-col pt-[50px] text-center relative  '>
+                <div className='mx-auto mx-w-[1200px] flex flex-col pt-[50px] text-center relative  '>
                     <h1 className='font-black text-2xl text-[#444444]'>Shop</h1>
                     <Link className='hover:text-white font-semibold text-[#444444]' href='/'>Home</Link>
                 </div>
             </div>
 
-            <section className='max-w-[1360px]  p-[14px]  h-full'>
+            <section className='max-w-[1360px] mx-auto p-[14px]  h-full'>
 
                 <div className='flex items-center text-[#333333] justify-center pt-[40px] text-3xl font-extrabold'>
 

@@ -19,7 +19,7 @@ function Second() {
     };
 
     return (
-        <section className='h-full my-[20px] p-[14px] max-w-[1360px]'>
+        <section className='h-full mx-auto my-[20px] p-[14px] max-w-[1360px]'>
 
             <div className='text-md  font-bold text-[#333333] flex w-full justify-between '>
 

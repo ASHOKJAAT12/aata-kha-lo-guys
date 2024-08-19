@@ -5,7 +5,6 @@ import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import MailIcon from '@mui/icons-material/Mail';
-import { useRouter , Router} from 'next/router';
 
 
 import Image from 'next/image';
@@ -17,12 +16,7 @@ import { Contact , InboxIcon } from 'lucide-react';
 
 export default function TemporaryDrawer() {
   const [open, setOpen] = React.useState(false);
-  const router = useRouter
-
-  const handleButtonclick = () => {
-    router.push('/Shop');
-  }
-
+ 
 
   const toggleDrawer = (isOpen) => () => {
     setOpen(isOpen);
@@ -37,18 +31,18 @@ export default function TemporaryDrawer() {
 
        <List className='flex gap-2 ml-[20px]  '>
         <Shop />
-        <Link onClick={handleButtonclick} href='/Shop' className=' hover:text-yellow-500  '> SHOP</Link>
+        <Link  href='/Shop' className=' hover:text-yellow-500  '> SHOP</Link>
 
       </List>
       <List className='flex gap-2 ml-[20px]  '>
         <MailIcon /> 
-        <Link href='/' className=' hover:text-yellow-500  '>GET NUTRITIONIST</Link>
+        <Link href='/Getnutritions' className=' hover:text-yellow-500  '>GET NUTRITIONIST</Link>
 
       </List>
 
       <List className='flex gap-2 ml-[20px]  '>
         <DashboardCustomize />
-        <Link href='/' className=' hover:text-yellow-500  '> ABOUT US</Link>
+        <Link href='/About' className=' hover:text-yellow-500  '> ABOUT US</Link>
 
       </List>
 

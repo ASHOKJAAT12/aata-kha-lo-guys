@@ -4,7 +4,7 @@ import Link from 'next/link';
 function Thrid() {
     return (
 
-        <section className='max-w-[1360px] my-[40px]  p-[14px]  h-full'>
+        <section className='max-w-[1360px] mx-auto my-[40px]  p-[14px]  h-full'>
 
             <div className='flex items-center text-[#333333] justify-center pt-[40px] text-3xl font-extrabold'>
 
