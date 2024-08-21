@@ -6,3 +6,10 @@
   margin: 0;
   padding: 0;
 }
+
+.Contact-img{
+  background-image: url('/my-game/public/Contact.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

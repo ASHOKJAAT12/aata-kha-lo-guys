@@ -22,8 +22,8 @@ export default function Header() {
                         <li><Link  className=' hover:border-b-2 hover:border-black' href={'/Shop'}>SHOP</Link></li>
                         <li><Link className=' hover:border-b-2 hover:border-black' href={'/About'}>ABOUT US</Link></li>
                         <li><Link className=' hover:border-b-2 hover:border-black' href={'/Getnutritions'}>GET NUTRITIONIST</Link></li>
-                        <li><Link className=' hover:border-b-2 hover:border-black' href={'#'}>BLOG</Link></li>
-                        <li><Link className=' hover:border-b-2 hover:border-black' href={'#'}>CONTACT US</Link></li>
+                        <li><Link className=' hover:border-b-2 hover:border-black' href={'/'}>BLOG</Link></li>
+                        <li><Link className=' hover:border-b-2 hover:border-black' href={'/Contact'}>CONTACT US</Link></li>
                     </ul>
                 </div>
 

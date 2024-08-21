@@ -58,7 +58,7 @@ export default function TemporaryDrawer() {
 
       <List className='flex gap-2 ml-[20px]  '>
         <Contact /> 
-        <Link href='/' className=' hover:text-yellow-500  ' >CONTCAT US</Link>
+        <Link href='/Contact' className=' hover:text-yellow-500  ' >CONTACT US</Link>
 
 
     
